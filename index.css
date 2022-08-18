@@ -1,0 +1,63 @@
+.yazı {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    width: 50vw;
+}
+.yazı1{
+    background-color: greenyellow;
+    transform: rotateX(45dag);
+      /*! 90 ve 270 derecelerde yazılar tam dik olduklarından ve 3-boyutlu olarak bakamadığımız için gözükmezler */
+
+}
+.yazı2{
+    background-color: tomato;
+    transform: rotateY(180dag);
+
+}
+.yazı3{
+    background-color: hotpink;
+    transform: rotate(-45dag);
+
+}
+
+.yazı4:hover{
+    
+    transform: scaleX(1.5);
+}
+    .yazı4{
+        background-color: indianred;
+    }
+
+ .yazı5{
+    background-color: fuchsia;
+
+ }
+
+ .yazı5:active {
+    transform: scale(1.1,1.2);
+ }
+
+
+
+ .translate{
+    background-color: gold;
+    font-weight: 800;
+    font-size: 1.1rem;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+
+ }
+ .x:hover{
+    transform: translateX(50px);
+
+ }
+ .y:active{
+    transform: translateY(-50px);
+
+ }
+ .xy:active {
+    transform: translate(50px,50px);
+
+ }
